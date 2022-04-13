@@ -1,9 +1,9 @@
 import SDWebImage
 
-struct MySwiftPackage {
+public struct MySwiftPackage {
     var text = "Hello, World!"
     
-    func sayHello() {
+    public func sayHello() {
         print(text)
     }
 }
