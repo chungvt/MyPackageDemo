@@ -9,6 +9,15 @@
           "revision": "2e63d0061da449ad0ed130768d05dceb1496de44",
           "version": "5.12.5"
         }
+      },
+      {
+        "package": "swift-nio-zlib-support",
+        "repositoryURL": "git@github.com:apple/swift-nio-zlib-support.git",
+        "state": {
+          "branch": null,
+          "revision": "37760e9a52030bb9011972c5213c3350fa9d41fd",
+          "version": "1.0.0"
+        }
       }
     ]
   },
