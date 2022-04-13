@@ -1,2 +1,3 @@
-# MyPackageDemo
-Demo build common Swift Package
+# MySwiftPackage
+
+A description of this package.
