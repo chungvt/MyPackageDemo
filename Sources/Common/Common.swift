@@ -13,3 +13,12 @@ public struct Common {
         print("Hello world")
     }
 }
+extension NSObject {
+    class var className: String {
+        return String(describing: self)
+    }
+    
+    var classObjectName: String {
+      return String(describing: type(of: self)).components(separatedBy: ".").last!
+    }
+}
