@@ -8,6 +8,7 @@
 import Foundation
 
 public struct Common {
+    public init(){}
     public func sayHello() {
         print("Hello world")
     }
