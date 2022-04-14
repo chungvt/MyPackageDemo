@@ -17,11 +17,13 @@ public class AvatarView: UIView {
     var didClickAvatar: (() -> Void)?
     public override init(frame: CGRect) {
         super.init(frame: frame)
+        print("init")
         commonInit()
     }
     
     public required init?(coder: NSCoder) {
         super.init(coder: coder)
+        print("required init")
         commonInit()
     }
     

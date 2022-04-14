@@ -27,7 +27,10 @@ let package = Package(
         .target(
             name: "MySwiftPackage",
             dependencies: ["SDWebImage", "Kingfisher"],
-            path: "Sources"),
+            path: "Sources",
+            resources: [
+                .process("Resources/Media.xcassets")
+            ]),
         .testTarget(
             name: "MySwiftPackageTests",
             dependencies: ["MySwiftPackage"]),
