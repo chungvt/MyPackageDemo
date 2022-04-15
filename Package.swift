@@ -30,7 +30,7 @@ let package = Package(
             path: "Sources",
             resources: [
                 .process("Common/Resources/Media.xcassets"),
-                .process("Common/AvatarView/AvatarView.xib")
+                .process("AvatarView/AvatarView.xib")
             ]),
         .testTarget(
             name: "MySwiftPackageTests",
