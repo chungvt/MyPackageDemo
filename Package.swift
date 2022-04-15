@@ -29,7 +29,8 @@ let package = Package(
             dependencies: ["SDWebImage", "Kingfisher"],
             path: "Sources",
             resources: [
-                .process("Resources/Media.xcassets")
+                .process("Common/Resources/Media.xcassets"),
+                .process("Common/AvatarView/AvatarView.xib")
             ]),
         .testTarget(
             name: "MySwiftPackageTests",
